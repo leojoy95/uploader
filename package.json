@@ -31,7 +31,9 @@
     "package-win": "npm run build && electron-builder --win --x64",
     "package-mac": "npm run build && electron-builder --mac",
     "package-linux": "npm run build && electron-builder --linux",
-    "package-all": "npm run build && electron-builder -mwl"
+    "package-all": "npm run build && electron-builder -mwl",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "@hot-loader/react-dom": "16.11.0",
@@ -83,7 +85,8 @@
     "sundial": "1.6.0",
     "tidepool-platform-client": "0.42.0",
     "usb-cdc-acm": "0.1.1",
-    "uuid": "7.0.0"
+    "uuid": "7.0.0",
+    "snyk": "^1.319.2"
   },
   "browserslist": "electron 7.1.9",
   "build": {
@@ -205,7 +208,7 @@
     "@babel/preset-react": "7.8.3",
     "@babel/register": "7.8.6",
     "@babel/runtime-corejs2": "7.7.2",
-    "@jest-runner/electron": "2.0.3",
+    "@jest-runner/electron": "3.0.0",
     "@ronomon/direct-io": "3.0.1",
     "aws-sdk": "2.472.0",
     "babel-core": "7.0.0-bridge.0",
@@ -225,7 +228,7 @@
     "devtron": "1.4.0",
     "difflet": "1.0.1",
     "drivelist": "8.0.10",
-    "electron": "8.1.1",
+    "electron": "8.2.2",
     "electron-builder": "22.3.6",
     "electron-devtools-installer": "2.2.4",
     "electron-notarize": "0.2.0",
@@ -253,7 +256,7 @@
     "less": "3.10.3",
     "less-loader": "5.0.0",
     "mini-css-extract-plugin": "0.9.0",
-    "minimist": "1.2.0",
+    "minimist": "1.2.3",
     "node-hid": "1.1.0",
     "object-invariant-test-helper": "0.1.1",
     "open": "7.0.3",
@@ -271,7 +274,7 @@
     "webpack-bundle-analyzer": "3.6.1",
     "webpack-cli": "3.3.10",
     "webpack-dev-middleware": "3.7.2",
-    "webpack-dev-server": "3.10.2",
+    "webpack-dev-server": "3.11.0",
     "webpack-hot-middleware": "2.25.0",
     "webpack-merge": "4.2.2",
     "xmlbuilder": "15.0.0"
@@ -309,5 +312,6 @@
     ],
     "runner": "@jest-runner/electron",
     "testEnvironment": "@jest-runner/electron/environment"
-  }
+  },
+  "snyk": true
 }
