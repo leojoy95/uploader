@@ -1,0 +1,119 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gitbook-cli > npm > node-gyp > request > hawk > hoek:
+        patched: '2020-05-09T00:23:39.646Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-05-09T00:23:39.646Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-05-09T00:23:39.646Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - gitbook-cli > npm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2020-05-09T00:23:39.646Z'
+  SNYK-JS-LODASH-567746:
+    - gitbook-cli > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@babel/register > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - babel-plugin-transform-define > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - concurrently > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - eslint > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - eslint-import-resolver-webpack > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - eslint-plugin-lodash > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - flux-standard-action > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - webpack-bundle-analyzer > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - webpack-merge > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - fbjs-scripts > @babel/core > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - enzyme > cheerio > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - eslint > table > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - fbjs-scripts > @babel/core > @babel/generator > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - fbjs-scripts > babel-preset-fbjs > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - electron > @electron/get > global-tunnel-ng > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - webpack-dev-server > portfinder > async > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - spectron > webdriverio > archiver > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - spectron > webdriverio > inquirer > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - fbjs-scripts > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@jest-runner/electron > @jest-runner/rpc > jscodeshift > @babel/register > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - fbjs-scripts > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - spectron > webdriverio > archiver > async > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - spectron > webdriverio > archiver > archiver-utils > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - spectron > webdriverio > archiver > zip-stream > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - spectron > webdriverio > gaze > globule > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@jest-runner/electron > @jest-runner/rpc > jscodeshift > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@jest-runner/electron > @jest-runner/rpc > jscodeshift > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - gitbook-cli > npmi > npm > request > form-data > async > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@jest-runner/electron > @jest-runner/rpc > jscodeshift > @babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - '@jest-runner/electron > jest-runner > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2020-05-09T00:23:39.646Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-09T00:23:39.646Z'
+  'npm:tunnel-agent:20170305':
+    - gitbook-cli > npmi > npm > request > tunnel-agent:
+        patched: '2020-05-09T00:23:39.646Z'
